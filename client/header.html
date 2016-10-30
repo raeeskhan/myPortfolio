@@ -1,5 +1,8 @@
 <head>
+  <meta charset="UTF-8">
   <title>myPortfolio</title>
+  <link rel="alternate" type="application/rss+xml" title="My Portfolio" href="/rss/posts">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <template name="header">
@@ -19,7 +22,7 @@
       <ul class="nav navbar-nav navbar-left">
         <li><a href="/projects">Projects</a></li>
         <li><a href="/news">News</a></li>
-        <li><a href="/blog">Blog</a></li>      
+        <li><a href="/blog">Blog</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {{> loginButtons align="right"}}
