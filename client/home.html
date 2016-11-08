@@ -1,4 +1,80 @@
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bs/css/bootstrap.css">
+    <script src="jquery-2.1.4.js"></script>
+    <script src="bs/js/bootstrap.js"></script>
+    <title>Welcome to Awesome Inc.</title>
+    <style type="text/css">
+      body{background-color: #a8d}
+      .jumbotron{background-color: #aaf}
+      .container-fluid, .jumbotron{box-shadow: 2px 2px 2px #000}
+      .jumbotron img 
+      {
+        width: 100%;
+        height: 70vh; 
+      }
+      
+    </style>
+
+    <script type="text/javascript">
+    $('')
+    </script>
+ </head>
+
 <template name="home">
+  <div class="contaier">
+      <div class="carousel slide" id="carousel1" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#carousel1" class="active" data-slide-to="0"></li>
+            <li data-target="#carousel1" data-slide-to="1" class=""></li>            
+            <li data-target="#carousel1" data-slide-to="2" class=""></li>
+            <li data-target="#carousel1" data-slide-to="3" class=""></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="jumbotron">
+              <div class="container">
+                <img src="/44.jpg">
+                <h1>Sleek design</h1>
+                <p>This is awesome Inc. so we claim it to have sleek design even though I have zero idea what it is.</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="jumbotron">
+              <div class="container">
+                <img src="/11.jpg">
+                <h1>Sleek design</h1>
+                <p>This is awesome Inc. so we claim it to have sleek design even though I have zero idea what it is.</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="jumbotron">
+              <div class="container">
+                <img src="/22.jpg">
+                <h1>Sleek design</h1>
+                <p>This is awesome Inc. so we claim it to have sleek design even though I have zero idea what it is.</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="jumbotron">
+              <div class="container">
+                <img src="/33.jpg">
+                <h1>Sleek design</h1>
+                <p>This is awesome Inc. so we claim it to have sleek design even though I have zero idea what it is.</p>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+      <a class="carousel-control left" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+      <a class="carousel-control right" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+  </div>
+
   <div class="container">
       Welcome to our portfolio website.
   </div>
