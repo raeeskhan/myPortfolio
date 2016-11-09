@@ -1,20 +1,36 @@
 <head>
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="bs/css/bootstrap.css">
     <script src="jquery-2.1.4.js"></script>
     <script src="bs/js/bootstrap.js"></script>
     <title>Welcome to Awesome Inc.</title>
     <style type="text/css">
-      body{background-color: #a8d}
       .jumbotron{background-color: #aaf}
-      .container-fluid, .jumbotron{box-shadow: 2px 2px 2px #000}
-      .jumbotron img 
-      {
-        width: 100%;
-        height: 70vh; 
+      .jumbotron{box-shadow: 2px 2px 2px #000}
+      .carousel {
+      margin-bottom: 40px;
+        }
+      .carousel .item {
+      height: 85vh;
+        }
+      .carousel-control {
+        height: 60px;
+        width: 60px;
+        margin-top: 200px;
+        background-color: transparent;
+        border: 0;
       }
-      
+
+      .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 85vh;
+        }
+      .carousel-indicators li {background-color: #aaf}
+      .carousel-indicators .active {background-color: #a8d}
     </style>
 
     <script type="text/javascript">
@@ -23,52 +39,31 @@
  </head>
 
 <template name="home">
-  <div class="contaier">
+
+  <div class="container-fluid">
+
       <div class="carousel slide" id="carousel1" data-ride="carousel">
+
         <ul class="carousel-indicators">
             <li data-target="#carousel1" class="active" data-slide-to="0"></li>
-            <li data-target="#carousel1" data-slide-to="1" class=""></li>            
+            <li data-target="#carousel1" data-slide-to="1" class=""></li>
             <li data-target="#carousel1" data-slide-to="2" class=""></li>
             <li data-target="#carousel1" data-slide-to="3" class=""></li>
         </ul>
         <div class="carousel-inner">
           <div class="item active">
-            <div class="jumbotron">
-              <div class="container">
-                <img src="/44.jpg">
-                <h1>Sleek design</h1>
-                <p>This is awesome Inc. so we claim it to have sleek design even though I have zero idea what it is.</p>
-              </div>
-            </div>
+            <img src="/44.jpg">            
           </div>
           <div class="item">
-            <div class="jumbotron">
-              <div class="container">
-                <img src="/11.jpg">
-                <h1>Sleek design</h1>
-                <p>This is awesome Inc. so we claim it to have sleek design even though I have zero idea what it is.</p>
-              </div>
-            </div>
+            <img src="/11.jpg">
           </div>
           <div class="item">
-            <div class="jumbotron">
-              <div class="container">
-                <img src="/22.jpg">
-                <h1>Sleek design</h1>
-                <p>This is awesome Inc. so we claim it to have sleek design even though I have zero idea what it is.</p>
-              </div>
-            </div>
+            <img src="/22.jpg">
           </div>
           <div class="item">
-            <div class="jumbotron">
-              <div class="container">
-                <img src="/33.jpg">
-                <h1>Sleek design</h1>
-                <p>This is awesome Inc. so we claim it to have sleek design even though I have zero idea what it is.</p>
-              </div>
-            </div>
+            <img src="/33.jpg">
           </div>
-          
+
       </div>
       <a class="carousel-control left" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
       <a class="carousel-control right" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -76,6 +71,10 @@
   </div>
 
   <div class="container">
-      Welcome to our portfolio website.
+    <h2>  Welcome to our portfolio website.</h2> <p>
+      مریکی اعلانِ آزادی کے مصنف تھامس جیفرسن جو امریکہ کے ایک طرح سے قائد اعظم ہیں سے کسی نے پوچھا : آپ کے خیال میں امریکی شخصی آزادیوں کو کس چیز سے خطرہ ہے ؟ ریاستی آمریت سے – جیفرسن نے جواب دیا – اس کا کیا مطلب ہے ؟ : اس آدمی نے دوبارہ سے پوچھا – اکثریت کی آمریت سے شخصی آزادیوں کو خطرہ ہے – جیفرسن نے کہا وہ کیسے ؟ مقبولیت پسند بیانیہ سے ، ووٹ کے حصول کے لئے شہریوں کے ذہنی و جذباتی استحصال سے اس قوم کو ہمیشہ خطرہ رہے گا – جیفرسن نے تفصیل سے جواب دیا –
+سارا امریکی میڈیا (بڑے بڑے میڈیا گروپس نے باقاعدہ طور پر ٹرمپ کی مخالفت کا اعلان کیا تھا – میں سوچ رہا ہوں کہ آخر نیو یارک ٹائم والے کیا سوچ رہے ہوں گے ؟) – سارے لبرل سیکولر دانشور … یہاں تک کہ نامی گرامی conservative دانشوروں نے بھی اس سے پناہ مانگی – – وال سٹریٹ سمیت تمام سرمایہ دار طاقتیں (کیونکہ اس نے کیپٹل کنٹرول کا ببانگ دہل اعلان کیا ، ٹریڈ ڈیلز کے خاتمے کا وعدہ کیا وغیرہ ) -امریکی سول اسٹیبلشمنٹ (وہ کہا کرتا تھا کہ اگر میں ہار گیا تو مجھے سول اسٹبلشمنٹ دھاندھلی سے ہروائے گی ) – سوشل میڈیا (سوشل میڈیا پر تو ٹرمپ ہٹلر سے ذرا بھی کم نہیں تھا ) سمیت تمام ٹرمپ کے خلاف متفق تھے مگر ٹرمپ جیت گیا –
+سچ ہے ووٹ کی طاقت (چاہے ٹرمپ کی حمایت میں پڑنے والے ووٹ کی آپ کوئی بھی دلیل دیں ) کے سامنے کوئی بھی لابنگ کامیاب نہیں – جمہوریت میں انقلاب نہیں آتے مگر ہوش ربا تبدیلیوں سے یہ جہاں بھی امکانات سے خالی نہیں – عوام نے نظام اور رجحانات بدلنے ہوں تو کوئی بھی طاقت ان کے آگے نہیں ٹھہر سکتی – ٹرمپ وہ خطرہ تھا جس سے کلاسیکل لبرلز نے امریکیوں کو ہمیشہ خبردار کیا تھا – مگر ظالم سمجھ بیٹھے تھے کہ کلاسیکل لبرل ازم اب outdated ہے اور فاشزم کا خطرہ ہمیشہ کے لئے ٹل گیا ہے – “غلامی کا راستہ ” (Road to serfdom ) نامی کتاب کے مصنف اور میرے پسندیدہ ترین فلسفی فریڈرک اے ہائیک سے کسی نے پوچھا – امریکی لبرل ازم کو کس چیز سے خطرہ ہے ؟ ہائیک نے جواب دیا : جمہوریت سے مگر وہ کس طرح ؟ اس آدمی نے چونک کر پوچھا اس کے فاشسٹ و سوشلسٹ رجحانات کی وجہ سے … کہ ریاست ہر چیز کو اپنے قبضہ میں لے کر کنٹرول کرے ، حکومت ہر کام خود کرے – شخصی آزادیوں کی مفروضہ سماجی مفادات کے مقابلے میں کوئی وقعت نہیں – فرد و سماج صرف وہی بہتر ہے جسے حکومت قبول کرے – اس کا حل کیا ہے ؟ اس آدمی نے دوبارہ پوچھا جمہوریت … ہائیک نے جواب دیا اب وہ کیسے ؟ ہائیک نے جواب دیا : وہ اس طرح کہ اب تک کے حاصل شدہ علم کی رو سے فاشسٹ و سوشلسٹ رجحانات کی حکومتیں جب عملی طور پر ناکام ہو جاتی ہیں تو توازن کی دوبارہ سے تلاش میں وہ بالاخر شخصی آزادیوں پر مبنی سیاسی سماجی اور معاشی نظام پر ہی آ ٹھہرتی ہیں – جمہوریت ان تبدیلیوں کو پرامن راستہ دیتی ہے – جمہوریت کا دائرۂ کار محدود سہی مگر یہ ناگزیر ہے اس کے علاوہ سیاسی استحکام کی کوئی دوسری صورت نہیں – یہی امریکہ کا مستقبل ہے – ٹرمپ ہٹلر مسولینی اور دوسرے آمروں کی طرح ناکام ہو گا اور امریکی عوام سمیت اہل مغرب کو کم از کم تیس اور زیادہ سے زیادہ پچاس سال تک کے لئے نہ بھلا سکنے والے اسباق چھوڑ جائے گا –
+</p>
   </div>
 </template>
